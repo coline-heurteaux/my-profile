@@ -1,0 +1,176 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+	background: #CFC7D2;
+	color: #131200;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: #5C415D;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+h2 {
+	color: #5C415D;
+}
+
+p {
+	color: #575756;
+}
+
+.presentation a {
+	background-color: #5C415D;
+	color: white;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.presentation a:hover {
+	background-color: #CFC7D2;
+	color: black;
+}
+
+.presentation, .confiance, .creation, .logiciel, .fin, .professionnel {
+	background: white;
+	padding: 50px;
+	margin: 100px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+
+.global {
+	margin: 30px auto;
+}
+
+.personnalite {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.personnalite img {
+	width: 600px;
+}
+
+.presentation {
+	text-align: center;
+}
+.presentation img {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	width: 200px;
+	height: 50%;
+	border-radius: 100%;
+}
+
+#qualite {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+
+#icon img {
+	padding-top: 30px;
+	width: 100px;
+}
+
+.descriptif {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	text-align: center;
+}
+
+.descriptif img {
+	width: 350px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.descriptif a {
+	background-color: #5C415D;
+	color: white;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.descriptif a:hover {
+	background-color: #CFC7D2;
+	color: black;
+}
+
+.descriptif p {
+	margin-bottom: 30px;
+}
+
+
+.footer img {
+	width: 50px;
+}
+
+#skill img {
+	padding-top: 30px;
+	width: 80px;	
+}
+
+.exp {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding-left: 150px;
+}
+
+.logo img {
+	padding-top: 20px;
+	width: 200px;
+}
+
+.poste {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 30px;
+	grid-gap: 15px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer img {
+	width: 80px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.footer img {
+	width: 60px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+
